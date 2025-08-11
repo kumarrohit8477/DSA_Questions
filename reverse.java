@@ -1,5 +1,5 @@
-public class reverse {
-    public int rvrs(int x) {
+class reverse {
+    public int reverseNumber(int x) {
         int reversed = 0;
         while (x != 0) {
             int digit = x % 10;
@@ -19,9 +19,9 @@ public class reverse {
     }
 
     public static void main(String[] args) {
-        int number = 12345; // Example input
-        reverse obj = new reverse(); // Create object
-        System.out.println(obj.rvrs(number)); // Output: 54321
+        int n = 12345; // Example input
+        reverse s = new reverse(); // Create object
+        System.out.println(s.reverseNumber(n));
     }
 }
 
