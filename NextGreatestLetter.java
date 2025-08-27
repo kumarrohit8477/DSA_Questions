@@ -12,4 +12,10 @@ public class NextGreatestLetter {
       }
       return Letter[start % Letter.length];
    }
+   public static void main(String[] args) {
+      NextGreatestLetter ngl = new NextGreatestLetter();
+      char[] letters = {'c','f','j'};
+      char target = 'j';
+      System.out.println(ngl.nextGreaterLettter(letters, target));
+   }
 }
